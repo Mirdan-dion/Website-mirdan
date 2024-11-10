@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #f8c291, #6a89cc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 25px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 0 50px;
+    text-align: justify;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55039;
+}
+
+#ungkapan{
+    margin-top: 20px;
+   
+}
+
+.isi.ade.nahu {
+    display: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
